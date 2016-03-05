@@ -7,6 +7,7 @@ class V8Js
 
     const FLAG_NONE = 1;
     const FLAG_FORCE_ARRAY = 2;
+    const FLAG_PROPAGATE_PHP_EXCEPTIONS = 4;
 
     const DEBUG_AUTO_BREAK_NEVER = 1;
     const DEBUG_AUTO_BREAK_ONCE = 2;
@@ -53,9 +54,9 @@ class V8Js
     /**
      * Compiles a script in object's context with optional identifier string.
      *
-     * @param
-     *            $script
+     * @param string $script
      * @param string $identifier
+     *
      * @return resource
      */
     public function compileString($script, $identifier = '')

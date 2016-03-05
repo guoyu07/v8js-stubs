@@ -6,13 +6,10 @@ class V8Js
     const V8_VERSION = '';
 
     const FLAG_NONE = 1;
-
     const FLAG_FORCE_ARRAY = 2;
 
     const DEBUG_AUTO_BREAK_NEVER = 1;
-
     const DEBUG_AUTO_BREAK_ONCE = 2;
-
     const DEBUG_AUTO_BREAK_ALWAYS = 3;
 
     /* Methods */

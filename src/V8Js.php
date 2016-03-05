@@ -116,9 +116,7 @@ class V8Js
     public function startDebugAgent($agent_name = 'V8Js', $port = 9222, $auto_break = self::DEBUG_AUTO_BREAK_NEVER)
     {}
 
-    /**
-     * Static methods *
-     */
+    /** Static methods **/
 
     /**
      * Registers persistent context independent global Javascript extension.

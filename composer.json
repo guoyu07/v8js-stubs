@@ -3,6 +3,6 @@
     "description": "IDE stubs vor V8Js PHP extension",
     "license": "MIT",
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=7.0.0"
     }
 }

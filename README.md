@@ -16,6 +16,6 @@ Include the `phpv8/v8js-stubs` repository into the **require-dev** section of yo
 
   ```json
     "require-dev": {
-        "phpv8/v8js-stubs": "~0.4"
+        "phpv8/v8js-stubs": "~1.1"
     }
   ```

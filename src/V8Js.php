@@ -2,7 +2,6 @@
 
 class V8Js
 {
-    /* Constants */
     const V8_VERSION = '';
 
     const FLAG_NONE = 1;

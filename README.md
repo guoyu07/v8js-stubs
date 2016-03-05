@@ -7,7 +7,7 @@ V8Js Stubs
 ==========
 
 V8Js PHP stubs for the [V8Js](https://github.com/phpv8/v8js) extension. Versions, tags, and branches
-maintain parity with the [phpv8/v8js library](https://github.com/phpv8/v8js).
+maintain parity with the [phpv8/v8js](https://github.com/phpv8/v8js) library.
 
 
 ### Installation

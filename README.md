@@ -11,7 +11,7 @@ maintain parity with the [phpv8/v8js](https://github.com/phpv8/v8js) library.
 
 
 ### Installation
-1. Include the `phpv8/v8js-stubs` repository into the **require-dev** section of your `composer.json` as follows:
+Include the `phpv8/v8js-stubs` repository into the **require-dev** section of your `composer.json` as follows:
 
   ```json
     "require-dev": {

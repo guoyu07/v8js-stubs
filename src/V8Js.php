@@ -13,8 +13,6 @@ class V8Js
     const DEBUG_AUTO_BREAK_ONCE = 2;
     const DEBUG_AUTO_BREAK_ALWAYS = 3;
 
-    /* Methods */
-
     /**
      * Initializes and starts V8 engine and Returns new V8Js object with it's own V8 context.
      *
@@ -116,8 +114,6 @@ class V8Js
      */
     public function startDebugAgent($agent_name = 'V8Js', $port = 9222, $auto_break = self::DEBUG_AUTO_BREAK_NEVER)
     {}
-
-    /** Static methods **/
 
     /**
      * Registers persistent context independent global Javascript extension.

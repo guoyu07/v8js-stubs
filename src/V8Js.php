@@ -134,4 +134,17 @@ class V8Js
      */
     public static function getExtensions()
     {}
+
+    /**
+     * Creates a custom V8 heap snapshot with the provided JavaScript source embedded.
+     * Snapshots are supported by V8 4.3.7 and higher.  For older versions of V8 this
+     * extension doesn't provide this method.
+     *
+     * @since 0.5.0
+     * @param string $embed_source
+     *
+     * @return string|false
+     */
+    public static function createSnapshot($embed_source)
+    {}
 }

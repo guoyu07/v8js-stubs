@@ -1,0 +1,7 @@
+{
+    "name": "phpv8/v8js-stubs",
+    "description": "IDE stubs vor V8Js PHP extension",
+    "require": {
+        "php": ">=5.3.3"
+    }
+}

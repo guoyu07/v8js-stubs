@@ -8,10 +8,6 @@ class V8Js
     const FLAG_FORCE_ARRAY = 2;
     const FLAG_PROPAGATE_PHP_EXCEPTIONS = 4;
 
-    const DEBUG_AUTO_BREAK_NEVER = 1;
-    const DEBUG_AUTO_BREAK_ONCE = 2;
-    const DEBUG_AUTO_BREAK_ALWAYS = 3;
-
     /**
      * Initializes and starts V8 engine and Returns new V8Js object with it's own V8 context.
      *
@@ -100,18 +96,6 @@ class V8Js
      * Clears the uncaught pending exception
      */
     public function clearPendingException()
-    {}
-
-    /**
-     * Starts V8 debug agent for use with Google Chrome Developer Tools (Eclipse Plugin)
-     *
-     * @param string $agent_name
-     * @param int    $port
-     * @param int    $auto_break
-     *
-     * @return bool
-     */
-    public function startDebugAgent($agent_name = 'V8Js', $port = 9222, $auto_break = self::DEBUG_AUTO_BREAK_NEVER)
     {}
 
     /**

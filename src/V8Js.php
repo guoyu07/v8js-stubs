@@ -17,7 +17,7 @@ class V8Js
      * @param bool   $report_uncaught_exceptions
      * @param string $snapshot_blob
      */
-    public function __construct($object_name = 'PHP', array $variables = null, array $extensions = null, $report_uncaught_exceptions = true, $snapshot_blob = null)
+    public function __construct($object_name = 'PHP', array $variables = [], array $extensions = [], $report_uncaught_exceptions = true, $snapshot_blob = null)
     {}
 
     /**
@@ -97,6 +97,16 @@ class V8Js
      * @param int $limit
      */
     public function setMemoryLimit($limit)
+    {}
+
+    /**
+     * Set the average object size (in bytes) for this V8Js object.
+     * V8's "amount of external memory" is adjusted by this value for every exported object.  V8 triggers a garbage
+     * collection once this totals to 192 MB.
+     *
+     * @param int $average_object_size
+     */
+    public function setAverageObjectSize($average_object_size)
     {}
 
     /**

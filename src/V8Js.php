@@ -17,7 +17,7 @@ class V8Js
      * @param bool   $report_uncaught_exceptions
      * @param string $snapshot_blob
      */
-    public function __construct($object_name = 'PHP', array $variables = null, array $extensions = null, $report_uncaught_exceptions = true, $snapshot_blob = null)
+    public function __construct($object_name = 'PHP', array $variables = [], array $extensions = [], $report_uncaught_exceptions = true, $snapshot_blob = null)
     {}
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-final class V8JsScriptException extends Exception
+final class V8JsScriptException extends V8JsException
 {
     /**
      *

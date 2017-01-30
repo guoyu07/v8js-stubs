@@ -1,5 +1,5 @@
 <?php
 
-final class V8JsTimeLimitException extends Exception
+final class V8JsTimeLimitException extends V8JsException
 {
 }
